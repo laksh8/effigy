@@ -1,9 +1,9 @@
-class User {
+class AppUser {
   final String email;
   final String name;
   final String uid;
 
-  User({
+  AppUser({
     required this.email,
     required this.name,
     required this.uid,
@@ -17,8 +17,8 @@ class User {
     };
   }
 
-  factory User.fromJson(Map<String, dynamic> jsonUser) {
-    return User(
+  factory AppUser.fromJson(Map<String, dynamic> jsonUser) {
+    return AppUser(
       email: jsonUser['email'],
       name: jsonUser['name'],
       uid: jsonUser['uid'],
