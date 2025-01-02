@@ -43,3 +43,21 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Firebase configuration and generated files
+firebase_app_id_file.json
+google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Firebase-generated files for Android
+android/app/google-services.json
+
+# Generated cache files
+firebase-debug.log
+
+# Firestore local cache files (optional, if you enable persistence)
+*.firestore/
+
+# Emulator-related files
+firebase_emulator/
+
